@@ -1,14 +1,24 @@
 body{
-    background-color: rgb(112, 112, 112);
-        text-align: center;
+  background-color: rgb(182, 135, 83);
+  font-family: cursive;
+      text-align: center;
+  }
+  ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
     }
-    ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        padding: 0;
-      }
-      
-      ul li {
-        margin-right: 10px;
-      }
+    
+    ul li {
+      box-shadow: 0 4px 8px;
+      margin-right: 20px;
+      background-color: rgb(196, 193, 193);
+      border-radius: 100px;
+      background-size: 2000px;
+  }
+.lista4 li a{
+  font-family: cursive;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,72 @@
+body{
+    font-family: cursive;
+    background-color: rgb(35, 53, 87);
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+      }
+      
+      ul li {
+        box-shadow: 0 4px 8px;
+        margin-right: 40px;
+        background-color: rgb(255, 255, 255);
+        background-size: 2000px;
+border-radius: 10px;
+    }
+    img{
+        border-radius: 10px;
+        position:absolute;
+        left: 5%;
+        top: 20%;
+        background-color: rgb(112, 112, 112);
+        margin-left: 10px;
+        width: 250px;
+    }
+    p{
+        font-family: cursive;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+
+    }
+    .p1 {
+        font-family: cursive;
+        position:absolute;
+        left: 20%;
+        top: 25%;
+    }
+.lista1 li a {
+text-decoration: none;
+color: black;
+}
+.buttomcompra {
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+.buttomcarrito {
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 23.9%;
+    top: 30%;
+}
+.cafetera {
+    border-radius: 10px;
+    position:absolute;
+    left: 30%;
+    top: 19%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 250px;
+}
