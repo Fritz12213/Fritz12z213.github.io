@@ -1,8 +1,20 @@
 body{
     font-family: cursive;
-    background-color: rgb(35, 53, 87);
+    background: linear-gradient(rgb(250, 250, 250), rgb(63, 63, 63), rgb(0, 0, 0));
+    width: 100%;
+    height: 100vh;
+    background-size: 400% 400%;
+    animation: animate 5s ease infinite;
         text-align: center;
     }
+    @keyframes animate {
+        0%{
+          background-position: 0% 50%;
+        } 100%{
+          background-position: 100% 50%;
+        }
+      }
+
     ul {
         display: flex;
         justify-content: center;
@@ -68,5 +80,425 @@ color: black;
     top: 19%;
     background-color: rgb(112, 112, 112);
     margin-left: 100px;
+    width: 190px;
+}
+.cafe{
+    font-family: cursive;
+    position: absolute;
+    left: 47%;
+    top: 20%;
+}
+.compra{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 47%;
+    top: 30%;
+}
+.carr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 51%;
+    top: 30%;
+}
+.cafpres{
+    font-family: cursive;
+    position:absolute;
+    left: 47%;
+    top: 25%;
+}
+.microondas{
+    border-radius: 10px;
+    position:absolute;
+    left: 60%;
+    top: 19%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
     width: 250px;
+}
+.micro{
+    font-family: cursive;
+    position:absolute;
+    left: 80%;
+    top: 20%;
+}
+.preciomicro{
+    font-family: cursive;
+    position:absolute;
+    left: 80%;
+    top: 25%;
+}
+.microcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+}
+.microcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 84%;
+    top: 30%;
+}
+.refriimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 0.2%;
+    top: 45%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 250px;
+}
+.refri{
+    font-family: cursive;
+    position: absolute;
+    left: 20%;
+    top: 46%;
+}
+.refripres{
+    font-family: cursive;
+    position:absolute;
+    left: 20%;
+    top: 50%;
+}
+.refricomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+}
+.refricarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 24%;
+    top: 55%;
+}
+.planchaimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 30%;
+    top: 45%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 250px;
+}
+.plancha{
+    font-family: cursive;
+    position: absolute;
+    left: 50%;
+    top: 46%;
+}
+.plpres{
+    font-family: cursive;
+    position:absolute;
+    left: 50%;
+    top: 50%; 
+}
+.plcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+}
+.plcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 54%;
+    top: 55%;
+}
+.aspimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 60%;
+    top: 45%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 200px;
+}
+.asp{
+    font-family: cursive;
+    position: absolute;
+    left: 77%;
+    top: 46%;
+}
+.asppres{
+    font-family: cursive;
+    position:absolute;
+    left: 77%;
+    top: 50%; 
+}
+.aspcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 77%;
+    top: 55%;
+}
+.aspcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 81%;
+    top: 55%;
+}
+.freidoraairimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 0%;
+    top: 72%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 200px;
+}
+.fair{
+    font-family: cursive;
+    position: absolute;
+    left: 17.5%;
+    top: 73%;
+}
+.fairpres{
+    font-family: cursive;
+    position:absolute;
+    left: 17.5%;
+    top: 77%; 
+}
+.faircomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 17.5%;
+    top: 82%;
+}
+.faircarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 21.5%;
+    top: 82%;
+}
+.tostimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 30%;
+    top: 72%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 190px;
+}
+.tost{
+    font-family: cursive;
+    position: absolute;
+    left: 47%;
+    top: 73%;
+}
+.tostpres{
+    font-family: cursive;
+    position:absolute;
+    left: 47%;
+    top: 77%;
+}
+.tostcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 47%;
+    top: 82%;
+}
+.tostcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 51%;
+    top: 82%;
+}
+.batimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 60%;
+    top: 72%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 190px;
+}
+.bat{
+    font-family: cursive;
+    position: absolute;
+    left: 77%;
+    top: 73%;
+}
+.batpres{
+    font-family: cursive;
+    position:absolute;
+    left: 77%;
+    top: 78%;
+}
+.batcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 77%;
+    top: 82%;
+}
+.batcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 81%;
+    top: 82%;
+}
+.ventimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 0%;
+    top: 98%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 190px;
+}
+.vent{
+    font-family: cursive;
+    position: absolute;
+    left: 17%;
+    top: 100%;
+}
+.ventpres{
+    font-family: cursive;
+    position:absolute;
+    left: 17%;
+    top: 104%;
+}
+.ventcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 17%;
+    top: 109%;
+}
+.ventcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 21%;
+    top: 109%;
+}
+.secimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 30%;
+    top: 98%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 190px;
+}
+.secpel{
+    font-family: cursive;
+    position: absolute;
+    left: 47%;
+    top: 100%;
+}
+.secpelpres{
+    font-family: cursive;
+    position:absolute;
+    left: 47%;
+    top: 104%;
+}
+.secpelcomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 47%;
+    top: 109%;
+}
+.secpelcarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 51%;
+    top: 109%;
+}
+.afeimg{
+    border-radius: 10px;
+    position:absolute;
+    left: 60%;
+    top: 98%;
+    background-color: rgb(112, 112, 112);
+    margin-left: 100px;
+    width: 143px;
+}
+.afe{
+    font-family: cursive;
+    position: absolute;
+    left: 75%;
+    top: 100%;
+}
+.afepres{
+    font-family: cursive;
+    position:absolute;
+    left: 75%;
+    top: 104%;
+}
+.afecomp{
+    background-color: rgb(243, 207, 87);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 75%;
+    top: 109%;
+}
+.afecarr{
+    background-color: rgb(235, 164, 33);
+    box-shadow: 0 4px 8px;
+    border-radius: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 79%;
+    top: 109%;
 }

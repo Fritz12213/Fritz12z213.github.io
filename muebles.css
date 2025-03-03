@@ -1,8 +1,23 @@
 body{
-  background-color: rgb(182, 135, 83);
   font-family: cursive;
+  background: linear-gradient(rgb(250, 250, 250), rgb(63, 63, 63), rgb(0, 0, 0));
+  width: 100%;
+  height: 100vh;
+  background-size: 400% 400%;
+  animation: animate 5s ease infinite;
       text-align: center;
   }
+  @keyframes animate {
+      0%{
+        background-position: 0% 50%;
+      } 100%{
+        background-position: 100% 50%;
+      }
+    }
+    .lista2 li a{
+      text-decoration: none;
+      color: black;
+    }    
   ul {
       display: flex;
       justify-content: center;
@@ -12,14 +27,481 @@ body{
     
     ul li {
       box-shadow: 0 4px 8px;
-      margin-right: 20px;
-      background-color: rgb(196, 193, 193);
-      border-radius: 100px;
+      margin-right: 40px;
+      background-color: rgb(255, 255, 255);
       background-size: 2000px;
+border-radius: 10px;
   }
-  .lista2 li a{
-    font-family: cursive;
-    text-decoration: none;
-    color: black;
+  .armbañoimg{
+      border-radius: 10px;
+      position:absolute;
+      left: 5%;
+      top: 20%;
+      background-color: rgb(112, 112, 112);
+      margin-left: 10px;
+      width: 250px;
   }
-  
+  .armbaño{
+      font-family: cursive;
+      position: absolute;
+      left: 20%;
+      top: 20%;
+  }
+  .armbañopres {
+      font-family: cursive;
+      position:absolute;
+      left: 20%;
+      top: 24%;
+  }
+.lista1 li a {
+text-decoration: none;
+color: black;
+}
+.armbañocomp {
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 29%;
+}
+.armbañocarr {
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 23.9%;
+  top: 29%;
+}
+.escofimg {
+  border-radius: 10px;
+  position:absolute;
+  left: 30%;
+  top: 19%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.escof{
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+.escofcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 29%;
+}
+.escofcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 54%;
+  top: 29%;
+}
+.escofpres{
+  font-family: cursive;
+  position:absolute;
+  left: 50%;
+  top: 24%;
+}
+
+.estescimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 60%;
+  top: 19%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 150px;
+}
+.estesc{
+  font-family: cursive;
+  position:absolute;
+  left: 75%;
+  top: 20%;
+}
+.estescpres{
+  font-family: cursive;
+  position:absolute;
+  left: 75%;
+  top: 25%;
+}
+.estesccomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 75%;
+  top: 30%;
+}
+.estesccarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 79%;
+  top: 30%;
+}
+.zapimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 0.2%;
+  top: 60%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.zap{
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 62%;
+}
+.zappres{
+  font-family: cursive;
+  position:absolute;
+  left: 20%;
+  top: 66%;
+}
+.zapcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 71%;
+}
+.zapcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 24%;
+  top: 71%;
+}
+.silimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 30%;
+  top: 60%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.sill{
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 63%;
+}
+.sillpres{
+  font-family: cursive;
+  position:absolute;
+  left: 50%;
+  top: 67%; 
+}
+.sillcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 72%;
+}
+.sillcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 54%;
+  top: 72%;
+}
+.libimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 60%;
+  top: 60%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.lib{
+  font-family: cursive;
+  position: absolute;
+  left: 80%;
+  top: 60%;
+}
+.libpres{
+  font-family: cursive;
+  position:absolute;
+  left: 80%;
+  top: 65%; 
+}
+.libcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 80%;
+  top: 70%;
+}
+.libcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 84%;
+  top: 70%;
+}
+.mesimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 0.2%;
+  top: 95%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.mes{
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 96%;
+}
+.mespres{
+  font-family: cursive;
+  position:absolute;
+  left: 20%;
+  top: 100%; 
+}
+.mescomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 105%;
+}
+.mescarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 24%;
+  top: 105%;
+}
+.archivimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 30%;
+  top: 95%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.archiv{
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+}
+.archivpres{
+  font-family: cursive;
+  position:absolute;
+  left: 50%;
+  top: 100%;
+}
+.archivcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 105%;
+}
+.archivcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 54%;
+  top: 105%;
+}
+.estimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 60%;
+  top: 95%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 190px;
+}
+.est{
+  font-family: cursive;
+  position: absolute;
+  left: 77%;
+  top: 95%;
+}
+.estpres{
+  font-family: cursive;
+  position:absolute;
+  left: 77%;
+  top: 100%;
+}
+.estcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 77%;
+  top: 105%;
+}
+.estcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 81%;
+  top: 105%;
+}
+.tvimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 0%;
+  top: 128%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.tv{
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 128%;
+}
+.tvpres{
+  font-family: cursive;
+  position:absolute;
+  left: 20%;
+  top: 133%;
+}
+.tvcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 20%;
+  top: 138%;
+}
+.tvcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 24%;
+  top: 138%;
+}
+.armimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 30%;
+  top: 130%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.arm{
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 130%;
+}
+.armpres{
+  font-family: cursive;
+  position:absolute;
+  left: 50%;
+  top: 135%;
+}
+.armcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 140%;
+}
+.armcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 54%;
+  top: 140%;
+}
+.gabimg{
+  border-radius: 10px;
+  position:absolute;
+  left: 60%;
+  top: 130%;
+  background-color: rgb(112, 112, 112);
+  margin-left: 100px;
+  width: 250px;
+}
+.gab{
+  font-family: cursive;
+  position: absolute;
+  left: 80%;
+  top: 130%;
+}
+.gabpres{
+  font-family: cursive;
+  position:absolute;
+  left: 80%;
+  top: 135%;
+}
+.gabcomp{
+  background-color: rgb(243, 207, 87);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 80%;
+  top: 140%;
+}
+.gabcarr{
+  background-color: rgb(235, 164, 33);
+  box-shadow: 0 4px 8px;
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 84%;
+  top: 140%;
+}
